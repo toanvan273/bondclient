@@ -1,0 +1,348 @@
+body.theme-light{
+  background: #f9f9f9;
+  color: #3c3c3c;
+ 
+  #priceboard{
+    .csroll-table{
+      &::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+        border-radius: 5px;
+      }
+      
+      &::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      
+      &::-webkit-scrollbar-thumb {
+        background: #c1c1c1;
+        &:hover {
+          background: #585858 !important;
+        }
+      }
+    }
+    .warning65{
+      border: 1px dashed #c78787;
+      background: #faf2f2;
+    }
+    .filter{
+      .input-money{
+        border: 0.5px solid #c1c1c1;
+      }
+      .fa.fa-undo{
+        color: #f5a122;
+      }
+    }
+    .navigation-tab{
+      background: #f9f9f9;
+      color: #282828;
+      border-bottom: 1px solid #c1c1c1;
+      .have-sub-menu{
+        .tab.false{
+          background: #c1c1c1;
+          color: #3c3c3c;
+        }
+      }
+    }
+    .proinvestor, .heading{
+      color: #3c3c3c;
+    }
+    .info{
+      color: #3c3c3c;
+    }
+    table{
+      thead {
+        tr {
+          background-color: #f9f9f9;
+        }
+        th {
+          border: 0.5px solid #c1c1c1;
+          background-color: #f9f9f9;
+          color: #3c3c3c;
+        }
+      }
+      tbody {
+        tr:nth-child(odd) {
+          background-color: #ffffff;
+        }
+        tr:nth-child(even) {
+          background-color: #f9f9f9;
+        }
+        td {
+          border-right: 0.5px solid #c1c1c1;
+        }
+      }
+      td {
+        border: 0.5px solid #c1c1c1;
+      }
+    }
+  }
+
+  #order-table{
+    background: #f9f9f9;
+    .page-tab{
+      border-bottom: #f9f9f9;
+    }
+    .assets-tab{
+        background: #f9f9f9;
+    }
+    .advance-filter{
+      background: #f9f9f9;
+      .contain-checkbox{
+        .checkmark{
+          border: 1px solid #646464;
+        }
+        .label-box{
+          color: #3c3c3c;
+        }
+      }
+      .div-search{
+        color: #3c3c3c;
+      }
+      .react-datepicker__input-container .textbox{
+        color: #3c3c3c;
+      }
+    }
+    .order-filter{
+      background: #f9f9f9;
+      .contain-checkbox{
+        .checkmark{
+          border: 1px solid #646464;
+        }
+        .label-box{
+          color: #3c3c3c;
+        }
+      }
+      .filter-col{
+        .filter-content{
+          .input-sybol{
+            color: #3c3c3c;
+            background: #f9f9f9;
+          }
+        }
+      }
+    }
+    table{
+      .txt-lime{
+        color: #21b25b;
+      }
+      .txt-red{
+        color: #ff1d48;
+      }
+      td {
+        border: 0.5px solid #c1c1c1;
+      }
+      thead {
+        tr {
+          background-color: #f9f9f9;
+        }
+        th {
+          border: 0.5px solid #c1c1c1;
+          background-color: #f9f9f9;
+          color: #3c3c3c;
+        }
+      }
+      tbody {
+        tr:nth-child(odd) {
+          background-color: #ffffff;
+        }
+        tr:nth-child(even) {
+          background-color: #f9f9f9;
+        }
+        td {
+          border-right: 0.5px solid #c1c1c1;
+        }
+      }
+    }
+  }
+
+  #portfolio{
+    .advanced-filter{
+      .div-advanced{
+        .input-sybol{
+          input{
+            color: #3c3c3c;
+          }
+        }
+        .react-datepicker__input-container .picker-date{
+          color: #3c3c3c;
+        }
+        .drop-down{
+          color: #3c3c3c;
+          .t-gray{
+            color: #3c3c3c;
+          }
+          option{
+            background-color: #f9f9f9;
+          }
+        }
+      }
+      .contain-checkbox{
+        .checkmark{
+          border: 1px solid #646464;
+        }
+        .label-box{
+          color: #3c3c3c;
+        }
+      }
+    }
+    .portfolio-data{
+      .bondcode-detail{
+        color: #3c3c3c;
+      }
+      thead {
+        tr {
+          background-color: #f9f9f9;
+        }
+        th {
+          border: 0.5px solid #c1c1c1;
+          background-color: #f9f9f9;
+          color: #3c3c3c;
+        }
+      }
+      tbody {
+        tr:nth-child(odd) {
+          background-color: #ffffff;
+        }
+        tr:nth-child(even) {
+          background-color: #f9f9f9;
+        }
+        td {
+          border-right: 0.5px solid #c1c1c1;
+        }
+      }
+      td {
+        border: 0.5px solid #c1c1c1;
+      }
+    }
+  }
+    
+  .set-order-page{
+    .react-datepicker__input-container{
+      .ep-date{
+        color: #3c3c3c;
+      }
+    }
+    .warning65{
+      border: 1px dashed #c78787;
+      background: #faf2f2;
+    }
+    .info-order{
+      .radio-lock{
+        .t-gray{
+          color: #3c3c3c;
+        }
+        .checkmark{
+          border: 0.5px solid #3c3c3c;
+        }
+      }
+      .my-checkbox{
+        .checkmark{
+          border: 0.5px solid #3c3c3c;
+        }
+      }
+      .bggray{
+        color: #3c3c3c;
+        background-color: #f9f9f9;
+      }
+      .bgtrans{
+        color: #3c3c3c;
+        option{
+          background-color: #f9f9f9;
+        }
+      }
+      .trade-table{
+        border: 0.5px solid #c1c1c1;
+        .t-gray, .t-bold, .txt-bold{
+          color: #3c3c3c;
+        }
+        .anoffer{
+          color: #f5a122 !important;
+        }
+        thead {
+          tr {
+            background-color: #f9f9f9;
+          }
+          th {
+            border-right: 0.5px solid #c1c1c1;
+            background-color: #f9f9f9;
+            color: #3c3c3c;
+          }
+        }
+        tbody {
+          tr:nth-child(odd) {
+            background-color: #ffffff;
+          }
+          tr:nth-child(even) {
+            background-color: #f9f9f9;
+          }
+          td {
+            border-right: 0.5px solid #c1c1c1;
+          }
+        }
+      }
+    }
+  }
+
+  .customer-info{
+    .warning65{
+      border: 1px dashed #c78787;
+      background: #faf2f2;
+    }
+    .info-block{
+      background: #f9f9f9;
+      .proinvest-status{
+        .bound{
+          border: 1px dashed #c78787;
+          background: #faf2f2;
+        }
+      }
+      .trade-table{
+        border: 0.5px solid #c1c1c1;
+        td{
+          color: #3c3c3c;
+        }
+        thead {
+          tr {
+            background-color: #f9f9f9;
+          }
+          th {
+            border-right: 0.5px solid #c1c1c1;
+            background-color: #f9f9f9;
+            color: #3c3c3c;
+          }
+        }
+        tbody {
+          tr:nth-child(odd) {
+            background-color: #ffffff;
+          }
+          tr:nth-child(even) {
+            background-color: #f9f9f9;
+          }
+          td {
+            border-right: 0.5px solid #c1c1c1;
+          }
+        }
+      }
+    }
+  }
+
+  #popup-container{
+    .confirm-buy-bond{
+      background: #f9f9f9;
+    }
+    .popup-read-contract{
+      background: #f9f9f9;
+    }
+  }
+  .account-box{
+    .container-suggestion{
+      .react-autosuggest__container{
+        .react-autosuggest__input{
+          color: #3c3c3c;
+        }
+      }
+    }
+  }
+}
+  

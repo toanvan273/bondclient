@@ -1,0 +1,66 @@
+#bonddetail {
+  // background: #eee;
+  color: #fff;
+  width: 600px;
+  margin: 10px auto;
+  padding: 20px;
+
+  h2 {
+    color: $brand-primary;
+    text-align: center;
+    margin: 20px 0 10px;
+  }
+
+  strong {
+    display: block;
+    text-align: center;
+  }
+  hr {
+    border: 0;
+    background: #d4d4d4;
+    height: 1px;
+  }
+}
+.customer-info {
+  display: flex;
+  margin: 0 auto;
+  max-width: 760px;
+  flex-flow: row;
+  justify-content: center;
+  .info-trade {
+    padding: 0 85px;
+  }
+  .proinvest-status {
+    padding: 0 85px;
+    margin-bottom: 10px;
+    a {
+      text-decoration: none;
+    }
+    .bound {
+      border: 1px dashed #6a3e3e;
+      border-radius: 10px;
+      padding: 5px 10px;
+      display: flex;
+      background: #352c2c;
+    }
+    .detail {
+      margin-left: 5px;
+    }
+  }
+  .info-block {
+    flex-grow: 1;
+    box-sizing: border-box;
+    background-color: #181818;
+    .header-block {
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .info-header {
+        color: #f5a122;
+        font-weight: 100;
+        letter-spacing: 0.03em;
+      }
+    }
+  }
+}

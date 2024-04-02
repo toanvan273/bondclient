@@ -1,0 +1,95 @@
+.account-box {
+	padding: 7px;
+	color: #777;
+	display: flex;
+
+	select {
+		margin-left: 20px;
+		padding: 3px 10px;
+	}
+	.refresh {
+		margin-left: 20px;
+        line-height: 32px;
+        color: green;
+
+		&:hover {
+			cursor: pointer;
+			color: lightgreen;
+		}
+
+		.fa-refresh {
+			font-size: 16px;
+		}
+    }
+    .show-private-info {
+        margin-left: 20px;
+        line-height: 32px;
+
+        &:hover {
+			cursor: pointer;
+			color: #F39200;
+        }
+
+        .fa {
+            font-size: 16px;
+        }
+    }
+    .user-info {
+        line-height: 32px;
+        margin-left: 30px;
+        color: #cdcdcd;
+
+        .fa {
+            color: #f39200;
+        }
+
+        .item {
+            display: inline-block;
+            margin-right: 3px;
+            border-radius: 3px;
+            padding: 0 10px;
+        }
+        .broker-rating-btn {
+            background-color: #f39200;
+            padding: 5px 20px;
+            color: #fff;
+            border: 1px solid transparent;
+            border-radius: 3px;
+
+            .fa {
+                color: #fff;
+            }
+
+            &:hover {
+                opacity: 0.8;
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    &.accounts-suggestion {
+
+        .react-autosuggest__suggestions-container--open {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+
+        .react-autosuggest__input--open {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+    }
+
+    body.theme-white & {
+        background: #e8e8e8;
+        .user-info {
+            color: #333;
+        }
+        &.account-box-footer {
+            background: #000;
+        }
+    }
+}
+

@@ -1,0 +1,31 @@
+environment: UAT
+template:
+  language: nodejs
+  version: 8
+  framework: nodejs
+
+projectName: bondclient
+approval: true
+
+# OPTIONAL: list of build commands to execute before add to docker container
+build:
+  - npm install
+  - npm run build
+
+# Build docker image based on this properties
+Docker:
+  #application port to exposed
+  port: 5000
+  #Start command, mandatory
+  runCommand: npm start
+
+  # OPTIONAL: provide custom dockerfile or docker-compose file within the source code. If not declared, it will be the standard default dockerfile from jenkins
+  #dockerfile: ./Dockerfile
+  #dockerCompose: ./docker-compose.yml
+  #OPTIONAL: project dependencies
+  dependencies:
+    - pushstate-server
+    #- forever
+  #OPTIONAL: list of config folder
+  #configFiles:
+  #  - /opt/config

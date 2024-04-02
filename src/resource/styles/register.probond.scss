@@ -1,0 +1,206 @@
+#register-probond {
+  .title {
+    text-align: center;
+    font-size: 25px;
+    color: $brand-primary;
+  }
+  .content-block {
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    background: #313131;
+    padding: 20px;
+    box-sizing: border-box;
+    h4 {
+      margin: 5px 0;
+    }
+    ul {
+      margin: 0;
+      padding: 0 20px;
+      li {
+        margin: 10px;
+      }
+    }
+  }
+  form {
+    margin-top: 20px;
+    width: 500px;
+    margin: 30px auto;
+    .form-group {
+      display: flex;
+      margin: 10px 0;
+      div {
+        padding: 0 !important;
+      }
+      label {
+        width: 180px;
+        line-height: 30px;
+        i {
+          margin-left: 5px;
+        }
+      }
+      input {
+        height: 30px;
+      }
+    }
+  }
+  .error {
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+  }
+  .group-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    .btn {
+      color: white;
+      cursor: pointer;
+      width: 100px;
+    }
+  }
+  .confirm-info-bond {
+    .title {
+      text-align: center;
+      color: $brand-primary;
+      font-weight: 500;
+    }
+    .bold-active {
+      font-weight: bold;
+      color: $brand-primary;
+    }
+
+    .order-form {
+      display: flex;
+      padding: 20px;
+      width: 1000px;
+      margin: 0 auto;
+      .order-info {
+        flex: 1;
+      }
+      table {
+        width: 100%;
+        .order-title {
+          text-align: left;
+          font-size: 16px;
+          margin-bottom: 5px;
+        }
+        tr {
+          line-height: 25px;
+          margin: 2px 0;
+        }
+      }
+      .group-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        .btn {
+          color: $bg-color;
+          cursor: pointer;
+        }
+      }
+    }
+    .bond-info {
+      border: 1px solid $brand-primary;
+      padding: 15px;
+      background: #303030;
+      width: 400px;
+      .title {
+        margin-top: 10px;
+      }
+      .form-group {
+        padding: 5px;
+        display: flex;
+        label {
+          display: inline-block;
+          width: 180px;
+        }
+        span {
+          color: $brand-primary;
+        }
+      }
+    }
+  }
+  .contract-wrap {
+    display: flex;
+    .confirm-contract {
+      padding: 20px;
+      .contract-list {
+        border: 1px solid $brand-primary;
+        border-radius: 10px;
+        .title {
+          background: orange;
+          color: white;
+          font-size: 16px;
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 8px 8px 0 0;
+        }
+      }
+      .wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+        border-bottom: 1px solid orange;
+      }
+      .wraper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+      }
+      .list-icon {
+        width: 70px;
+        display: flex;
+        justify-content: space-between;
+        .fa {
+          cursor: pointer;
+        }
+        .fa-check {
+          color: green;
+        }
+        .fa-eye,
+        .fa-download {
+          color: $brand-primary;
+        }
+      }
+      .group-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        .btn {
+          color: $bg-color;
+          cursor: pointer;
+        }
+      }
+    }
+    .contract-view {
+      flex: 1;
+      padding: 20;
+      text-align: center;
+    }
+    .check-contract {
+      border: 1px solid #f7941d;
+      border-radius: 10px;
+      margin-top: 20px;
+      padding: 15px;
+      .active {
+        color: $brand-primary;
+      }
+      .check-doc {
+        display: flex;
+        align-items: center;
+      }
+      .confirm-otp input {
+        margin-left: 20px;
+      }
+    }
+  }
+  .btn {
+    height: 30px;
+    line-height: 30px;
+  }
+}

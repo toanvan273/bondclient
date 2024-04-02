@@ -1,0 +1,14 @@
+.spin-container-table-fixcol{
+
+}
+
+.ivnd-table-cell-fix-left, .ivnd-table-cell-fix-right {
+    position: sticky!important;
+    z-index: 2;
+    background: #fff;
+}
+
+.ivnd-spin-container {
+    position: relative;
+    transition: opacity .3s;
+}
